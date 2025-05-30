@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Image Viewer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .image-container {
+      width: 100%;
+      max-width: 800px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .image-container img:hover {
+      transform: scale(1.02);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="image-container">
+    <img src="https://previews.dropbox.com/p/thumb/ACpJ5MN9zPtA1cCkEMkU0yXuOCvY9XNMgKmF0dm4QWnxT3FSAZ_Ga-K3K56XkwL4G-BAcLEbaYVFvv8-mOvaJx7LbBjDZI_JVVxHSgRw0uGB2pFAti5aEdCj1qLstnszMt_E9GY3zV1oIVs2JhscoJx_FPeRRnVTRt8phT-ES6pnVbuXun6nBxS8nLVMNePt0dsyMzB25hQuph1xP622AQvU8cjUEGL_9HqFv5Ux09iUgp365aeTXpPajBSQ8ISikvE87TmfWZYnlKQnzS1SZy5wgXtbOwMMLVWQu9djmqSLtGe1F7M5LXJrpWizfYRa94aRtRPqwLcn_hEWqHAEB98p/p.jpeg?is_prewarmed=true" alt="Image 1">
+    
+    <img src="https://previews.dropbox.com/p/thumb/ACpD3ZrjJQc2Yb8Ieohq4WI2YPdRMfSOWQXQqxAkMQrFmq2l-PVTQKW2thsRXJ-sh4ZxMel8KMbe_WocJP2pvgf6DKYJ9tnF8fbJP7Pr_-DdvHeBA3QgRaP1IsADN73oX2u8ioP2jOkMd0Tj2GRKB-ctdwnmI8Wl4tdlvKBYm6JCyC0OmS3KiknOFA3jrXHxC37eWN8rT9mvLTGXFeLYz40OPgBenhpZYDFbluXBAhyZLsS75Ge2bPQsxp7Y3CqZ4jfPBTUsxv_Kt39Jlv8TXQPrBq4OwBuA4gqlyKwffjuFMKX1VIG6IGZZo-StJE_9JkliX85EqF_TbCd9LjoL7thY/p.jpeg?is_prewarmed=true" alt="Image 2">
+  </div>
+
+</body>
+</html>
